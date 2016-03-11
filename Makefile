@@ -20,7 +20,7 @@ $(TARGET): $(OBJS)
 	$(C) $(CFLAGS) $<
 
 clean:
-	rm -f $(OBJS) $(TARGET) *.gz .??* *.tgz *.zip
+	rm -f $(OBJS) $(TARGET)
 
 tar:
 	tar -czf $(LOGNAME).tar.gz
